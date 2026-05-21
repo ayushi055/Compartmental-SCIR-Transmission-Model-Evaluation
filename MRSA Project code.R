@@ -25,7 +25,7 @@ SCIR <- function(time, current_state, params){
 #---------------------------
 # Load & Prepare Data
 #---------------------------
-infections <- read_xls("~/Desktop/Infectious Diseases/Dataset_S1.xls")
+infections <- read_xls("~/Dataset_S1.xls")
 infections$month <- as.Date(paste0(infections$begin_year, "-", infections$begin_month, "-01"))
 
 monthly_cases_train <- infections %>%
