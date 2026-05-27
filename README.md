@@ -1,8 +1,10 @@
 # Predicting Monthly MRSA Hospital Infections Using a Compartmental SCIR Transmission Model
 
 
-### SCIR Model
-The proposed Susceptible-Colonized-Infected-Recovered-Susceptible (SCIR) model by Hogea et al. is governed by a system of ordinary differential equations (ODEs), where transitions between compartments are determined by biological and epidemiological
+### Description
+This study aims to evaluate a compartmental transmission model proposed by Hogea et al., which explicitly incorporates colonization, to assess its ability to capture MRSA infection trends in hospitals. Using surveillance data from 2004 to 2008, we estimate key transmission parameters and aim to improve forecasting for MRSA outbreaks and inform infection control strategies. This model was chosen because few studies have explored such parameters, and it offers a more realistic approach by including colonization as a critical factor in MRSA transmission.
+
+The proposed Susceptible-Colonized-Infected-Recovered-Susceptible (SCIR) model is governed by a system of ordinary differential equations (ODEs), where transitions between compartments are determined by biological and epidemiological
 processes. The original model included both MRSA and MSSA infections, however I have adjusted the model slightly to account for only MRSA infections which are the focus of this project.
 
 ### Methods
